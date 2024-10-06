@@ -1,5 +1,5 @@
 # HR-Analytics
-![HR_logo](https://github.com/user-attachments/assets/1cac8a27-ae6a-4228-8920-a25e05af8d43)
+<img src="https://github.com/user-attachments/assets/1cac8a27-ae6a-4228-8920-a25e05af8d43" alt="HR_logo" width="200" height="auto">
 
 
 
@@ -15,6 +15,38 @@ This document provides a comprehensive overview of the key data tables and field
 ## HR Perspective
 
 From an HR perspective, this dataset is invaluable for assessing various aspects of the employee experience. By analyzing these data points, HR can identify patterns and areas for improvement within the workplace, such as enhancing job satisfaction, increasing work-life balance, and developing targeted training programs. This data also aids in evaluating the effectiveness of current HR strategies and initiatives aimed at improving employee retention and fostering a positive organizational culture.
+
+## Project Overview
+**The pipeline performs the following steps:**
+
+**Data Access**: Files are uploaded to a Google Drive folder. Using the Google Cloud API, the data is accessed and downloaded to a Python environment.
+
+**Data Cleaning**: With pandas, the data is cleaned and prepared for database insertion.
+
+**Data Storage**: Cleaned data is loaded into a MySQL database. We use Python libraries such as MySQL Connector and SQLAlchemy to handle data uploads.
+
+**Database Management**: Tables in the database are truncated each time new data is added, ensuring consistency without duplicate records.
+
+**Visualization**: MySQL is connected to Power BI for building dashboards and visualizing the processed data.
+
+
+
+
+
+## Prerequisites
+**To successfully set up and use this project, we need the following:**
+
+### Prerequisites
+
+- Python 3.x and the following libraries:
+  - pandas
+  - MySQL Connector
+  - SQLAlchemy
+  - Google Cloud API client libraries
+- Google Cloud Project with access to Google Drive API
+- MySQL Server
+- Power BI Desktop for dashboard creation
+
 
 # Data Dictionary
 
@@ -106,36 +138,6 @@ This document provides an overview of the key tables and columns in the dataset,
 ![drawSQL-image-export-2024-10-06](https://github.com/user-attachments/assets/cfaa95dd-2cc6-46b5-a4a3-b6700fd84abb)
 
 
-
-
-## Project Overview
-**The pipeline performs the following steps:**
-
-**Data Access**: Files are uploaded to a Google Drive folder. Using the Google Cloud API, the data is accessed and downloaded to a Python environment.
-
-**Data Cleaning**: With pandas, the data is cleaned and prepared for database insertion.
-
-**Data Storage**: Cleaned data is loaded into a MySQL database. We use Python libraries such as MySQL Connector and SQLAlchemy to handle data uploads.
-
-**Database Management**: Tables in the database are truncated each time new data is added, ensuring consistency without duplicate records.
-
-**Visualization**: MySQL is connected to Power BI for building dashboards and visualizing the processed data.
-
-
-
-
-
-## Prerequisites
-**To successfully set up and use this project, we need the following:**
-
-Python 3.x and the following libraries:
-pandas
-MySQL Connector
-SQLAlchemy
-Google Cloud API client libraries
-Google Cloud Project with access to Google Drive API
-MySQL Server
-Power BI Desktop for dashboard creation
 
 
 ### Dashboard
