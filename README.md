@@ -134,12 +134,16 @@ This table includes various education levels achieved by employees, from no form
 
 This document provides an overview of the key tables and columns in the dataset, helping to understand the structure of employee data and the details associated with performance reviews, satisfaction levels, ratings, and education levels.
 
-
+# Entity-Relationship Diagram
 ![drawSQL-image-export-2024-10-06](https://github.com/user-attachments/assets/cfaa95dd-2cc6-46b5-a4a3-b6700fd84abb)
 
 
 
 
-### Dashboard
+# Dashboard
+
+![Empl](https://github.com/user-attachments/assets/a90f9431-fbc5-48ba-a3a3-4f6c0489f09e)
+![dep](https://github.com/user-attachments/assets/e7e4fb44-627d-400c-9547-27ff2d2c5d31)
+
 
 
