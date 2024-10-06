@@ -120,3 +120,24 @@ This document provides an overview of the key tables and columns in the dataset,
 **Database Management**: Tables in the database are truncated each time new data is added, ensuring consistency without duplicate records.
 
 **Visualization**: MySQL is connected to Power BI for building dashboards and visualizing the processed data.
+
+
+
+
+
+## Prerequisites
+**To successfully set up and use this project, we need the following:**
+
+Python 3.x and the following libraries:
+pandas
+MySQL Connector
+SQLAlchemy
+Google Cloud API client libraries
+Google Cloud Project with access to Google Drive API
+MySQL Server
+Power BI Desktop for dashboard creation
+
+
+### Dashboard
+
+
