@@ -104,3 +104,15 @@ This document provides an overview of the key tables and columns in the dataset,
 
 
 ![drawSQL-image-export-2024-10-06](https://github.com/user-attachments/assets/cfaa95dd-2cc6-46b5-a4a3-b6700fd84abb)
+
+
+
+
+Project Overview
+The pipeline performs the following steps:
+
+Data Access: Files are uploaded to a Google Drive folder. Using the Google Cloud API, the data is accessed and downloaded to a Python environment.
+Data Cleaning: With pandas, the data is cleaned and prepared for database insertion.
+Data Storage: Cleaned data is loaded into a MySQL database. We use Python libraries such as MySQL Connector and SQLAlchemy to handle data uploads.
+Database Management: Tables in the database are truncated each time new data is added, ensuring consistency without duplicate records.
+Visualization: MySQL is connected to Power BI for building dashboards and visualizing the processed data.
