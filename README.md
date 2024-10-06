@@ -1,4 +1,11 @@
 # HR-Analytics
+![HR_logo](https://github.com/user-attachments/assets/1cac8a27-ae6a-4228-8920-a25e05af8d43)
+
+
+
+
+
+
 # Employee Performance & Satisfaction Data Dictionary
 
 ## Overview
