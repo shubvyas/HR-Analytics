@@ -191,4 +191,7 @@ def Load_data_from_drive():
         cleaned_file_to_upload.SetContentFile(cleaned_file_name)    # Set the cleaned file content
         cleaned_file_to_upload.Upload()  # Upload the cleaned file (this replaces the original file)
 
-        print(f'{file_name} has been cleaned and replaced on Google Drive.')       
+        print(f'{file_name} has been cleaned and replaced on Google Drive.')     
+        
+# callig function 
+Load_data_from_drive()
