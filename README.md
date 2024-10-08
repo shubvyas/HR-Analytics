@@ -142,8 +142,5 @@ This document provides an overview of the key tables and columns in the dataset,
 
 # Dashboard
 
-![Empl](https://github.com/user-attachments/assets/a90f9431-fbc5-48ba-a3a3-4f6c0489f09e)
-![dep](https://github.com/user-attachments/assets/e7e4fb44-627d-400c-9547-27ff2d2c5d31)
-
-
-
+![demp_1](https://github.com/user-attachments/assets/68a9c8e2-5251-4259-8b8f-b60dff1d14ed)
+![HR_1](https://github.com/user-attachments/assets/8faaef5c-a01b-4a69-9478-409818a9f3ae)
