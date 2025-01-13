@@ -134,11 +134,3 @@ This document provides an overview of the key tables and columns in the dataset,
 
 # Entity-Relationship Diagram
 ![drawSQL-image-export-2024-10-06](https://github.com/user-attachments/assets/cfaa95dd-2cc6-46b5-a4a3-b6700fd84abb)
-
-
-
-
-# Dashboard
-
-![demp_1](https://github.com/user-attachments/assets/68a9c8e2-5251-4259-8b8f-b60dff1d14ed)
-![HR_1](https://github.com/user-attachments/assets/8faaef5c-a01b-4a69-9478-409818a9f3ae)
